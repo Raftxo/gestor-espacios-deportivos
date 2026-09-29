@@ -21,7 +21,7 @@ app.use(express.json());
 app.use('/api/peliculas', peliculasRoutes);
 
 app.get('/', (req, res) => {
-  res.json({ mensaje: 'API de películas', endpoints: '/api/peliculas' });
+  res.json({ mensaje: 'API de espacios deportivos', endpoints: '/api/espacios' });
 });
 
 // Se ejecuta cuando ninguna de las rutas anteriores respondió.
